@@ -4,7 +4,7 @@
 sentence: ask "Enter the sentence:"
 
 dlms: charset " ,."
-collect [foreach word split sentence dlms [
+print collect [foreach word split sentence dlms [
 		keep either (length? word) <= 4 [
 			word
 		][

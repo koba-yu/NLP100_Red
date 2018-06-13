@@ -3,7 +3,7 @@
 
 patrol-car: "パトカー"
 taxi: "タクシー"
-rejoin collect [until [
+print rejoin collect [until [
 		keep take patrol-car
 		keep take taxi
 		(empty? patrol-car) and empty? taxi

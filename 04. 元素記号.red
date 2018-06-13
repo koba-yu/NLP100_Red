@@ -10,4 +10,4 @@ words: exclude split sentence dlms [""]
 indices: [1 5 6 7 8 9 15 16 19]
 widths: collect [repeat i length? words [keep either find indices i [1][2]]]
 
-make map! collect [repeat i length? words [keep take/part words/:i widths/:i keep i]]
+print mold make map! collect [repeat i length? words [keep take/part words/:i widths/:i keep i]]

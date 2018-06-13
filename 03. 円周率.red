@@ -3,7 +3,7 @@
 ; 回答例１
 sentence: "Now I need a drink, alcoholic of course, after the heavy lectures involving quantum mechanics."
 dlms: charset " ,."
-collect [foreach word split sentence dlms [keep length? word]]
+print collect [foreach word split sentence dlms [keep length? word]]
 
 ; 回答例２
 sentence: "Now I need a drink, alcoholic of course, after the heavy lectures involving quantum mechanics."
@@ -17,4 +17,4 @@ words: parse sentence [collect [any [
 	]
 ]
 
-collect [foreach x words [keep length? to string! x]]
+print collect [foreach x words [keep length? to string! x]]
