@@ -13,5 +13,5 @@ n-gram: func [
 sentence: "I am an NLPer"
 words: split sentence " "
 
-print n-gram words 2
-print n-gram sentence 2
+print mold n-gram words 2
+print mold n-gram sentence 2

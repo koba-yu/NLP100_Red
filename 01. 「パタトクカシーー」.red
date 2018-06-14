@@ -6,4 +6,4 @@ print extract "パタトクカシーー" 2
 
 ; 回答例２
 patatokukashi: "パタトクカシーー"
-rejoin collect [repeat i length? patatokukashi [if (i % 2) <> 0 [keep patatokukashi/:i]]]
+print rejoin collect [repeat i length? patatokukashi [if (i % 2) <> 0 [keep patatokukashi/:i]]]
