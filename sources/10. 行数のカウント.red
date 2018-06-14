@@ -1,3 +1,3 @@
 ; hightemp.txtの行数をカウントせよ．
 
-length? read/lines %hightemp.txt
+print length? read/lines %hightemp.txt
