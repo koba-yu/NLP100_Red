@@ -14,8 +14,8 @@ Red [
 ; ---------------------------------------
 ; 回答例１
 ; ---------------------------------------
-rows: read/lines %hightemp.txt
-sort/skip/compare rows 4 function [x y][(to float! x/3) > to float! y/3]
+rows: collect [foreach row read/lines %hightemp.txt [keep/only split row tab]]
+sort/compare rows function [x y][(to float! x/3) > to float! y/3]
 foreach row rows [print row]
 
 ; ---------------------------------------
