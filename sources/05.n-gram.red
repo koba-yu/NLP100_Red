@@ -1,5 +1,13 @@
-; 与えられたシーケンス（文字列やリストなど）からn-gramを作る関数を作成せよ．
-; この関数を用い，"I am an NLPer"という文から単語bi-gram，文字bi-gramを得よ．
+Red [
+	Title:		"05.n-gram"
+	Author:		"Koba-yu"
+	File:		%05.n-gram.red
+	Tabs:		4
+	Question:	{
+		与えられたシーケンス（文字列やリストなど）からn-gramを作る関数を作成せよ．
+		この関数を用い，"I am an NLPer"という文から単語bi-gram，文字bi-gramを得よ．
+	}
+]
 
 n-gram: func [
 	"n-gramの結果を返します"

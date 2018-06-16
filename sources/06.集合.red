@@ -1,5 +1,13 @@
-; "paraparaparadise"と"paragraph"に含まれる文字bi-gramの集合を，それぞれ, XとYとして求め，XとYの和集合，積集合，差集合を求めよ．
-; さらに，'se'というbi-gramがXおよびYに含まれるかどうかを調べよ．
+Red [
+	Title:		"06.集合"
+	Author:		"Koba-yu"
+	File:		%06.集合.red
+	Tabs:		4
+	Question:	{
+		"paraparaparadise"と"paragraph"に含まれる文字bi-gramの集合を，それぞれ, XとYとして求め，
+		XとYの和集合，積集合，差集合を求めよ．さらに，'se'というbi-gramがXおよびYに含まれるかどうかを調べよ．
+	}
+]
 
 n-gram: func [
 	"n-gramの結果を返します"
