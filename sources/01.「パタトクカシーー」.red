@@ -15,4 +15,4 @@ print extract "パタトクカシーー" 2
 ; 回答例２
 ; --------------------------------
 patatokukashi: "パタトクカシーー"
-print rejoin collect [repeat i length? patatokukashi [if (i % 2) <> 0 [keep patatokukashi/:i]]]
+print rejoin collect [repeat i length? patatokukashi [if odd? i [keep patatokukashi/:i]]]
