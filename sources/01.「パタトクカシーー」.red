@@ -14,5 +14,10 @@ print extract "パタトクカシーー" 2
 ; --------------------------------
 ; 回答例２
 ; --------------------------------
+print rejoin collect [foreach [x y] "パタトクカシーー" [keep x]]
+
+; --------------------------------
+; 回答例３
+; --------------------------------
 patatokukashi: "パタトクカシーー"
 print rejoin collect [repeat i length? patatokukashi [if odd? i [keep patatokukashi/:i]]]

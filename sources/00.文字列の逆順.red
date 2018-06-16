@@ -15,4 +15,13 @@ print reverse "stressed"
 ; 回答例２
 ; ---------------------------------------
 stressed: "stressed"
+
+string: copy []
+while [not empty? stressed][append string take/last stressed]
+print rejoin string
+
+; ---------------------------------------
+; 回答例３
+; ---------------------------------------
+stressed: "stressed"
 print rejoin collect [until [keep take/last stressed empty? stressed]]
