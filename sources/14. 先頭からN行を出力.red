@@ -5,4 +5,4 @@
 
 count: to integer! ask "Enter count:"
 rows: take/part read/lines %hightemp.txt count
-print collect [while [keep take rows not empty? rows][keep newline]]
+foreach row rows [print row]
