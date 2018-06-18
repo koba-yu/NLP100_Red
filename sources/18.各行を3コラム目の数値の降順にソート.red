@@ -36,7 +36,7 @@ do compose/only [foreach (properties) rows [print properties]]
 ; ---------------------------------------
 rows: collect [foreach row read/lines %hightemp.txt [
 		row: split row tab
-		keep context [
+		keep object [
 			prefecture: row/1
 			point: row/2
 			temperature: to float! row/3
