@@ -19,4 +19,4 @@ rows: collect [foreach row read/lines %hightemp.txt [
 ]
 
 sort/compare rows function[x y][either map/:x = map/:y [x < y][map/:x > map/:y]]
-foreach row rows [print rejoin [row "(" map/(row) ")"]]
+foreach row rows [print rejoin [row "(" map/:row ")"]]
