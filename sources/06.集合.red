@@ -1,11 +1,17 @@
 Red [
-	Title:		"06.集合"
+	タイトル:	"06.集合"
+	Title:		"Set"
 	Author:		"Koba-yu"
 	File:		%06.集合.red
 	Tabs:		4
-	Question:	{
+	問題:		{
 		"paraparaparadise"と"paragraph"に含まれる文字bi-gramの集合を，それぞれ, XとYとして求め，
-		XとYの和集合，積集合，差集合を求めよ．さらに，'se'というbi-gramがXおよびYに含まれるかどうかを調べよ．
+		XとYの和集合，積集合，差集合を求めよ．さらに，'se'というbi-gramがXおよびYに含まれるかどうかを調べよ．		
+	}
+	Question:	{
+		Get character bigram from "paraparaparadise" as x and from "paragraph" as y.
+		Then get union, intersection and difference set between x and y.
+		Also, check 'se' exists in x and y.
 	}
 ]
 

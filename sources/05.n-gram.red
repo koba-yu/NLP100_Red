@@ -3,9 +3,13 @@ Red [
 	Author:		"Koba-yu"
 	File:		%05.n-gram.red
 	Tabs:		4
-	Question:	{
+	問題:		{
 		与えられたシーケンス（文字列やリストなど）からn-gramを作る関数を作成せよ．
 		この関数を用い，"I am an NLPer"という文から単語bi-gram，文字bi-gramを得よ．
+	}
+	Question:	{
+		Make a function to return n-gram from a given string or list.
+		Get a word bigram and character bigram by the function.
 	}
 ]
 
