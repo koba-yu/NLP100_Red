@@ -19,14 +19,14 @@ Red [
 ]
 
 ; ---------------------------------------
-; 回答例１
+; 回答例１(Answer 1)
 ; ---------------------------------------
 rows: collect [foreach row read/lines %hightemp.txt [keep/only split row tab]]
 sort/compare rows function [x y][(to float! x/3) > to float! y/3]
 foreach row rows [print row]
 
 ; ---------------------------------------
-; 回答例２
+; 回答例２(Answer 2)
 ; ---------------------------------------
 rows: collect [foreach row read/lines %hightemp.txt [
 		row: split row tab
@@ -39,7 +39,7 @@ properties: [prefecture point temperature date]
 do compose/only [foreach (properties) rows [print properties]]
 
 ; ---------------------------------------
-; 回答例３
+; 回答例３(Answer 3)
 ; ---------------------------------------
 rows: collect [foreach row read/lines %hightemp.txt [
 		row: split row tab
