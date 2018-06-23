@@ -1,6 +1,6 @@
 Red [
 	タイトル:	"04.元素記号"
-	Title:		"Chemical Elements"
+	Title:		"04.Chemical Elements"
 	Author:		"Koba-yu"
 	File:		%04.元素記号.red
 	Tabs:		4

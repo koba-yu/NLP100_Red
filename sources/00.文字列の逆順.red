@@ -1,6 +1,6 @@
 Red [
 	タイトル:	"00.文字列の逆順"
-	Title:		"Reversed string"
+	Title:		"00.Reversed string"
 	Author:		"Koba-yu"
 	File:		%00.文字列の逆順.red
 	Tabs:		4

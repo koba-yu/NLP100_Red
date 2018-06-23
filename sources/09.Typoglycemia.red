@@ -1,4 +1,5 @@
 Red [
+	タイトル:	"09.Typoglycemia"
 	Title:		"09.Typoglycemia"
 	Author:		"Koba-yu"
 	File:		%09.Typoglycemia.red

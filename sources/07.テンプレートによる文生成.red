@@ -1,6 +1,6 @@
 Red [
 	タイトル:	"07.テンプレートによる文生成"
-	Title:		"Make a string by "
+	Title:		"07.Make a string by arguments"
 	Author:		"Koba-yu"
 	File:		%07.テンプレートによる文生成.red
 	Tabs:		4

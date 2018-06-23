@@ -1,6 +1,6 @@
 Red [
 	タイトル:	"03.円周率"
-	Title:		"Pi"
+	Title:		"03.Pi"
 	Author:		"Koba-yu"
 	File:		%03.円周率.red
 	Tabs:		4

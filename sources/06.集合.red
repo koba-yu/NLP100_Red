@@ -1,6 +1,6 @@
 Red [
 	タイトル:	"06.集合"
-	Title:		"Set"
+	Title:		"06.Set"
 	Author:		"Koba-yu"
 	File:		%06.集合.red
 	Tabs:		4

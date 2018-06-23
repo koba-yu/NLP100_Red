@@ -1,6 +1,6 @@
 Red [
 	タイトル:	"11.タブをスペースに置換"
-	Title:		"Replace tabs with spaces"
+	Title:		"11.Replace tabs with spaces"
 	Author:		"Koba-yu"
 	File:		%11.タブをスペースに置換.red
 	Tabs:		4
@@ -11,8 +11,8 @@ Red [
 		タブ1文字につきスペース1文字に置換せよ．
 	}
 	Question:	{
-		hightemp.txt is a tab-delimited file that records Japan's highest temperature by terms of "prefecture", "area", "degree Celsius" and date.
-		Make a program that use hightemp.txt as input and perform the following process;
+		hightemp.txt is a tab-delimited file that records Japan's highest temperature by terms of "prefecture", "area", "degree Celsius" and "date".
+		Make a program that uses hightemp.txt as input and performs the following process;
 
 		Replace a tab with a space.
 	}

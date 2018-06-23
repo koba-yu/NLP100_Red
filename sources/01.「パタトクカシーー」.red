@@ -1,5 +1,6 @@
 Red [
-	Title:		"01.「パタトクカシーー」"
+	タイトル:	"01.「パタトクカシーー」"
+	Title:		"01.Extract string"
 	Author:		"Koba-yu"
 	File:		%01.「パタトクカシーー」.red
 	Tabs:		4

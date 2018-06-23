@@ -1,6 +1,6 @@
 Red [
 	タイトル:	"08.暗号文"
-	Title:		"Ciphertext"
+	Title:		"08.Ciphertext"
 	Author:		"Koba-yu"
 	File:		%08.暗号文.red
 	Tabs:		4

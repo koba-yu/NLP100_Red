@@ -1,4 +1,5 @@
 Red [
+	タイトル:	"05.n-gram"
 	Title:		"05.n-gram"
 	Author:		"Koba-yu"
 	File:		%05.n-gram.red
