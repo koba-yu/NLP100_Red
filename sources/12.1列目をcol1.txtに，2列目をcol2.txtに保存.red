@@ -11,7 +11,8 @@ Red [
 		各行の1列目だけを抜き出したものをcol1.txtに，2列目だけを抜き出したものをcol2.txtとしてファイルに保存せよ．
 	}
 	Question:	{
-		hightemp.txt is a tab-delimited file that records Japan's highest temperature by terms of "prefecture", "area", "degree Celsius" and "date".
+		hightemp.txt is a tab-delimited file that records Japan's highest temperature
+		by terms of "prefecture", "area", "degree Celsius" and "date".
 		Make a program that uses hightemp.txt as input and performs the following process;
 
 		Extract 1st columns data and write as col1.txt and 2nd columns data as col2.txt.

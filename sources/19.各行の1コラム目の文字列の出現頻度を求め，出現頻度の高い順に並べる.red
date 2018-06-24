@@ -11,7 +11,8 @@ Red [
 		各行の1列目の文字列の出現頻度を求め，その高い順に並べて表示せよ．
 	}
 	Question:	{
-		hightemp.txt is a tab-delimited file that records Japan's highest temperature by terms of "prefecture", "area", "degree Celsius" and "date".
+		hightemp.txt is a tab-delimited file that records Japan's highest temperature
+		by terms of "prefecture", "area", "degree Celsius" and "date".
 		Make a program that uses hightemp.txt as input and performs the following process;
 
 		Evaluate frequency of appearance of 1st column's value, and sort by the frequency.

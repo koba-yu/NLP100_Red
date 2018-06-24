@@ -11,7 +11,8 @@ Red [
 		1列目の文字列の種類（異なる文字列の集合）を求めよ．
 	}
 	Question:	{
-		hightemp.txt is a tab-delimited file that records Japan's highest temperature by terms of "prefecture", "area", "degree Celsius" and "date".
+		hightemp.txt is a tab-delimited file that records Japan's highest temperature
+		by terms of "prefecture", "area", "degree Celsius" and "date".
 		Make a program that uses hightemp.txt as input and performs the following process;
 
 		Get a set from values of 1st columns.

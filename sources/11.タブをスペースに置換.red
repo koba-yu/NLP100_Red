@@ -11,7 +11,8 @@ Red [
 		タブ1文字につきスペース1文字に置換せよ．
 	}
 	Question:	{
-		hightemp.txt is a tab-delimited file that records Japan's highest temperature by terms of "prefecture", "area", "degree Celsius" and "date".
+		hightemp.txt is a tab-delimited file that records Japan's highest temperature
+		by terms of "prefecture", "area", "degree Celsius" and "date".
 		Make a program that uses hightemp.txt as input and performs the following process;
 
 		Replace a tab with a space.

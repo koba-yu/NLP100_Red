@@ -11,7 +11,8 @@ Red [
 		各行を3コラム目の数値の逆順で整列せよ（注意: 各行の内容は変更せずに並び替えよ）．
 	}
 	Question:	{
-		hightemp.txt is a tab-delimited file that records Japan's highest temperature by terms of "prefecture", "area", "degree Celsius" and "date".
+		hightemp.txt is a tab-delimited file that records Japan's highest temperature
+		by terms of "prefecture", "area", "degree Celsius" and "date".
 		Make a program that uses hightemp.txt as input and performs the following process;
 
 		Sort rows in descending order by 3rd column's numeric value(Don't change each row's content).

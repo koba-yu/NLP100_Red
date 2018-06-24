@@ -10,7 +10,8 @@ Red [
 		取り出した文字列から単語の位置（先頭から何番目の単語か）への連想配列（辞書型もしくはマップ型）を作成せよ．
 	}
 	Question:	{
-		Split the sentence below, get the 1st character from the 1st, 5th, 6th, 7th, 8th, 9th, 15th, 16th, 19th word and first 2 characters from the others. Then make a map of the characters and index.
+		Split the sentence below, get the 1st character from the 1st, 5th, 6th, 7th, 8th, 9th, 15th, 16th, 19th word
+		and first 2 characters from the others. Then make a map of the characters and index.
 		"Hi He Lied Because Boron Could Not Oxidize Fluorine. New Nations Might Also Sign Peace Security Clause. Arthur King Can."
 	}
 ]

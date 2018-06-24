@@ -11,10 +11,12 @@ Red [
 		12で作ったcol1.txtとcol2.txtを結合し，元のファイルの1列目と2列目をタブ区切りで並べたテキストファイルを作成せよ．
 	}
 	Question:	{
-		hightemp.txt is a tab-delimited file that records Japan's highest temperature by terms of "prefecture", "area", "degree Celsius" and "date".
+		hightemp.txt is a tab-delimited file that records Japan's highest temperature
+		by terms of "prefecture", "area", "degree Celsius" and "date".
 		Make a program that uses hightemp.txt as input and performs the following process;
 
-		By merging col1.txt and col2.txt that you made #12, make a tab-delimited file that has hightemp.txt's 1st column and 2nd column.
+		By merging col1.txt and col2.txt that you made on question #12, make a tab-delimited file
+		that has hightemp.txt's 1st column and 2nd column.
 	}
 ]
 

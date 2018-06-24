@@ -11,7 +11,8 @@ Red [
 		を与え，その実行結果を確認せよ．
 	}
 	Question:	{
-		Make a program that splits a sentence to words, randomly shuffles characters in each word without 1st and last characters. It does not shuffle the word if its length less than or equal to 4.
+		Make a program that splits a sentence to words, randomly shuffles characters in each word
+		other than 1st and last characters. It does not shuffle the word if its length less than or equal to 4.
 		Put a example sentence like below, and check the result.
 		"I couldn't believe that I could actually understand what I was reading : the phenomenal power of the human mind ."）
 	}
