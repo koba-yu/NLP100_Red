@@ -19,11 +19,11 @@ Red [
 ]
 
 map: make map! []
-rows: collect [foreach row read/lines %hightemp.txt [
-		prefecture: first split row tab
-		map/:prefecture: either map/:prefecture [map/:prefecture + 1][keep prefecture 1]
-	]
+foreach row read/lines %hightemp.txt [
+    prefecture: first split row tab
+    map/:prefecture: 1 + any [map/:prefecture 0]
 ]
 
+rows: keys-of map
 sort/compare rows function[x y][either map/:x = map/:y [x < y][map/:x > map/:y]]
 foreach row rows [print rejoin [row "(" map/:row ")"]]
