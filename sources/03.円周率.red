@@ -19,7 +19,8 @@ Red [
 ; -----------------------------
 sentence: "Now I need a drink, alcoholic of course, after the heavy lectures involving quantum mechanics."
 dlms: charset " ,."
-print collect [foreach word split sentence dlms [keep length? word]]
+words: exclude split sentence dlms [""]
+print collect [foreach word words [keep length? word]]
 
 ; -----------------------------
 ; 回答例２
