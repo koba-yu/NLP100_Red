@@ -24,7 +24,7 @@ Red [
 			* Each line has "title" key of the article title and "text" key of the article text as JSON
 			* A whole file is compressed by gzip
 
-		Make a program that performs the following process;	
+		Make a program that performs the following process;
 
 		Read a JSON file of the Wikipedia data and show the article text about "イギリス(Britain)".
 	}
@@ -50,4 +50,6 @@ found?: foreach line read/lines %jawiki-country.json [
 
 unless found? [throw "Not found"]
 
-print text
+; 内容が長いため、コンソール表示ではなくテキスト出力とする
+; Write to a file rather than console print, because the data is too long.
+write %jawiki-britain.txt text
