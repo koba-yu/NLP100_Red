@@ -12,4 +12,5 @@ It is called [言語処理100本ノック(100 questions of natural language proc
 
 You can find other language versions on [Github](https://github.com/search?q=言語処理100本ノック).
 
-On question 10 ~ 19, we use a file 'hightemp.txt', you can download the file [here](http://www.cl.ecei.tohoku.ac.jp/nlp100/data/hightemp.txt).
+On question 10 ~ 19, we use a file 'hightemp.txt', you can download the file [here](http://www.cl.ecei.tohoku.ac.jp/nlp100/data/hightemp.txt).  
+On question 20, we use a file 'jawiki-country.json.gz', you can download the file [here](http://www.cl.ecei.tohoku.ac.jp/nlp100/data/jawiki-country.json.gz)
