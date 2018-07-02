@@ -26,7 +26,7 @@ Red [
 
 		Make a program that performs the following process;
 
-		Read a JSON file of the Wikipedia data and show the article text about "イギリス(Britain)".
+		Read a JSON file of the Wikipedia data and show the article text about "イギリス"(Britain).
 	}
 ]
 
@@ -50,6 +50,8 @@ found?: foreach line read/lines %jawiki-country.json [
 
 unless found? [throw "Not found"]
 
-; 内容が長いため、コンソール表示ではなくテキスト出力とする
+; 内容が長いため、コンソール表示ではなくテキスト出力とする。
+; 以降の問題ではこのファイルから内容を読込するものとする。
 ; Write to a file rather than console print, because the data is too long.
+; On the following questions, I read this file as input.
 write %jawiki-britain.txt text
