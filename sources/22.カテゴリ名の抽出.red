@@ -5,7 +5,7 @@ Red [
 	File:		%22.カテゴリ名の抽出.red
 	Tabs:		4
 	問題:		"記事のカテゴリ名を（行単位ではなく名前で）抽出せよ．"
-	Question:	"Extract category names(not a while line but just name)."
+	Question:	"Extract category names(not a whole line but just name)."
 ]
 
 article: read %jawiki-britain.txt
