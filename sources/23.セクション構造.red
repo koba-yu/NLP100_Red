@@ -10,6 +10,8 @@ Red [
 
 article: read %jawiki-britain.txt
 
+; ==は元々定義されている演算子のため注意
+; Pay attention that == is Red's predefined word.
 ==: ["=" some "="]
 sections: parse article [collect [any [
 			copy start-tag == keep to start-tag opt start-tag	; Get section name
