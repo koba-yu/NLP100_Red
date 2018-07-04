@@ -10,9 +10,10 @@ Red [
 
 article: read %jawiki-britain.txt
 
-marker: ["=" some "="]
+==: ["=" some "="]
 sections: parse article [collect [any [
-			copy open marker keep to open opt open keep ((length? open) - 1)
+			copy start-tag == keep to start-tag opt start-tag	; Get section name
+			keep ((length? start-tag) - 1)						; Get section level
 			| skip
 		]
 	]
