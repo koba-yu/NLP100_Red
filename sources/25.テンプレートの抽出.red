@@ -8,15 +8,13 @@ Red [
 	Question:	{Extract field names and values of "基礎情報(infobox)" template and put them into a map object.}
 ]
 
-
 article: read %jawiki-britain.txt
 
 equal: [" = "]
 basic-info: make map! parse article [collect [any [
 			"{{基礎情報 国"
-			| "|" keep to equal opt equal keep to "\n|"
+			| "|" keep to equal opt equal keep to ["\n|" | "\n}}"]
 			| "{{" thru "}}"
-			| "}}"
 			| skip
 		]
 	]
