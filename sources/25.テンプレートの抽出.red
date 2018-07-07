@@ -22,4 +22,4 @@ basic-info: make map! parse article [collect [any [
 
 ; 内容が長いため、ファイル出力とする
 ; Write the content to a file because it is too long to print.
-write %basic-info.txt basic-info
+write %basic-info25.txt basic-info
