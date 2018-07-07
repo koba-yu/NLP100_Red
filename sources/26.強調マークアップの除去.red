@@ -13,7 +13,7 @@ article: read %jawiki-britain.txt
 remove-markup: function [value][
 	mark: ["'" some "'"]
 	rejoin parse value [collect [any [
-				copy start-tag mark keep to start-tag opt start-tag
+				copy start-tag mark keep to opt start-tag
 				| keep skip
 			]
 		]
