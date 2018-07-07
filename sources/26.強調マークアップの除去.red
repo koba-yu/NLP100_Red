@@ -10,19 +10,20 @@ Red [
 
 article: read %jawiki-britain.txt
 
-equal: [" = "]
-mark: ["'" some "'"]
+remove-markup: function [value][
+	mark: ["'" some "'"]
+	rejoin parse value [collect [any [
+				copy start-tag mark keep to start-tag opt start-tag
+				| keep skip
+			]
+		]
+	]
+]
 
+equal: [" = "]
 basic-info: make map! parse article [collect [any [
 			"{{基礎情報 国"
-			| "|" keep to equal opt equal copy value to ["\n|" | "\n}}"] keep (
-					rejoin parse value [collect [any [
-								copy start-tag mark keep to start-tag opt start-tag
-								| keep skip
-							]
-						]
-					]
-				)
+			| "|" keep to equal opt equal copy value to ["\n|" | "\n}}"] keep (remove-markup value)
 			| "{{" thru "}}"
 			| skip
 		]
@@ -31,4 +32,4 @@ basic-info: make map! parse article [collect [any [
 
 ; 内容が長いため、ファイル出力とする
 ; Write the content to a file because it is too long to print.
-write %basic-info2.txt basic-info
+write %basic-info26.txt basic-info
