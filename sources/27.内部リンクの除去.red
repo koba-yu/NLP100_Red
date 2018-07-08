@@ -15,7 +15,7 @@ remove-markup: function [value][
 	mark: ["'" some "'"]
 	file: [["[[ファイル:" | "[[File:"] thru "]]"]
 	category: ["[[Category:" thru "]]"]
-	redirect: [{#REDIRECT [[} thru "]]"]
+	redirect: ["#REDIRECT [[" thru "]]"]
 
 	rejoin parse value [collect [any [
 				copy start-tag mark keep to opt start-tag
