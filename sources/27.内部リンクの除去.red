@@ -1,6 +1,6 @@
 Red [
 	タイトル:	"27.内部リンクの除去"
-	Title:		"27."
+	Title:		{27.Remove "link to another page" markup}
 	Author:		"Koba-yu"
 	File:		%27.内部リンクの除去.red
 	Tabs:		4
