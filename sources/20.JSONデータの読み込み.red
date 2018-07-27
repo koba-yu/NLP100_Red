@@ -30,19 +30,10 @@ Red [
 	}
 ]
 
-; Redには今のところgzipの解凍をする関数はないので、gzipをコマンドラインで呼び出して使用します。
-; Windowsの場合、事前にgzipをダウンロードし、パスを通すかカレントディレクトリに配置してください。
-;
-; I use 'call' with gzip because Red does not have implementation of gzip function, so far.
-; If you use Windows, download gzip, set gzip directory to PATH environment variable or
-; put gzip on current directory.
+text: to string! decompress read/binary %jawiki-country.json.gz
 
-; 元ファイルがなくなると面倒なので、解凍してからもう一度作成
-gz-file: read/binary %jawiki-country.json.gz
-call/wait "gzip -d -f jawiki-country.json.gz"
-write/binary %jawiki-country.json.gz gz-file
-
-found?: foreach line read/lines %jawiki-country.json [
+; 結構時間がかかるので注意
+found?: foreach line split text lf [
 	if parse line [
 		"{" {"text": } copy text to {, "title": "イギリス"^}} skip to end
 	][break/return true]
