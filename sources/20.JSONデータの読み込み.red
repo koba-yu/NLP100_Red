@@ -30,9 +30,13 @@ Red [
 	}
 ]
 
+; --------------------------------
+; 回答例１(Answer 1)
+; --------------------------------
 text: to string! decompress read/binary %jawiki-country.json.gz
 
 ; 結構時間がかかるので注意
+; This takes for a while.
 found?: foreach line split text lf [
 	if parse line [
 		"{" {"text": } copy text to {, "title": "イギリス"^}} skip to end
@@ -46,3 +50,17 @@ unless found? [throw "Not found"]
 ; Write to a file rather than console print, because the data is too long.
 ; On the following questions, I read this file as input.
 write %jawiki-britain.txt text
+
+; --------------------------------
+; 回答例２(Answer )
+; --------------------------------
+; 少し時間がかかる。
+; This takes a little time.
+lines: split to string! decompress read/binary %jawiki-country.json.gz lf
+
+uk: foreach line lines [
+	json: load/as line 'json
+	if json/title = "イギリス" [break/return json]
+]
+
+write %jawiki-britain.txt uk/text
