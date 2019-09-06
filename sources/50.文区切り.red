@@ -20,7 +20,7 @@ Red [
 white-space: charset reduce [space tab cr lf]
 upper: charset [#"A" - #"Z"]
 lines: parse read %nlp.txt [collect [any [
-			keep thru ["." | ";" | ":" | "?" | "!"] to [some white-space upper]
+			any white-space keep thru ["." | ";" | ":" | "?" | "!"] to [some white-space upper]
 		]
 	]
 ]
