@@ -33,10 +33,11 @@ Red [
 ; --------------------------------
 ; 回答例１(Answer 1)
 ; --------------------------------
+; 結構時間がかかるので注意
+; The code below takes for a while.
+
 text: to string! decompress read/binary %jawiki-country.json.gz
 
-; 結構時間がかかるので注意
-; This takes for a while.
 found?: foreach line split text lf [
 	if parse line [
 		"{" {"text": } copy text to {, "title": "イギリス"^}} skip to end
@@ -54,8 +55,9 @@ write %jawiki-britain.txt text
 ; --------------------------------
 ; 回答例２(Answer )
 ; --------------------------------
-; 少し時間がかかる。
-; This takes a little time.
+; 一連の処理は少し時間がかかる。
+; The code below takes a little time.
+
 lines: split to string! decompress read/binary %jawiki-country.json.gz lf
 
 uk: foreach line lines [
