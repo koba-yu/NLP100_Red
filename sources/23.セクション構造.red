@@ -5,7 +5,7 @@ Red [
 	File:		%23.セクション構造.red
 	Tabs:		4
 	問題:		{記事中に含まれるセクション名とそのレベル（例えば"== セクション名 =="なら1）を表示せよ．}
-	Question:	{Show section names and level (e.g. "== section name ==" should be 1).}}
+	Question:	{Show section names and level (e.g. "== section name ==" should be 1).}
 ]
 
 article: read %jawiki-britain.txt
